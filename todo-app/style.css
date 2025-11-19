@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(246, 232, 206);
+}
+
+.canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+input {
+    margin: 20px;
+    background-color:  rgb(246, 242, 235);
+   border: 2px solid rgb(253, 198, 95);
+   border-radius: 8px;
+   width: 50vw;
+   height: 45px;
+   box-shadow: 8px 7px  rgb(246, 190, 86)  ;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 15px;
+  
+}
+
+input:hover{
+    
+     box-shadow: -5px -3px rgb(246, 190, 86)  ;
+}
+
+input::placeholder{
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 20px;
+}
+
+button{
+     margin: 20px;
+    background-color:  rgb(246, 242, 235);
+   border: 2px solid rgb(253, 198, 95);
+   border-radius: 8px;
+   width: 10vw;
+   height: 45px;
+   box-shadow: 8px 7px  rgb(246, 190, 86)  ;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+button:hover{
+      box-shadow: -5px -3px rgb(246, 190, 86)  ;
+        background-color:  rgb(194, 138, 42);
+        color: whitesmoke;
+}
+
+textarea{
+     margin: 20px;
+    background-color:  rgb(246, 242, 235);
+   border: 2px solid rgb(253, 198, 95);
+   border-radius: 8px;
+   width: 75vw;
+   resize: none;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 15px;
+}
+ul{
+    margin-bottom: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.card{
+    margin-bottom: 10px;
+    width: 75vw;
+    height: 200px;
+    overflow-y: scroll;
+    text-overflow: ellipsis;
+    background-color: #8c5b00;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+
+.bar{
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
